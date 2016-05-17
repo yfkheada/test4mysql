@@ -1,5 +1,5 @@
 # Base of your container
-FROM microsoft/aspnet:latest
+FROM microsoft/aspnet:1.0.0-rc1-final
 
 COPY . /app
 WORKDIR /app
