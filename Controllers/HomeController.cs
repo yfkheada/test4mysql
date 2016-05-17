@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Mvc;
-using DAL;
 
 namespace WebApplication2.Controllers
 {
@@ -17,16 +16,7 @@ namespace WebApplication2.Controllers
         public IActionResult About()
         {
             string a = "";
-            using (var context = new db_Entities())
-            {
-                var customers = context.Customer.ToList();
-                
-                foreach (var cust in customers)
-                {
-                  a+= cust.id + " " + cust.customer + " " + cust.address;
-                }
 
-            }
             ViewData["Message"] = "Your application description page."+ a;
 
             return View();
