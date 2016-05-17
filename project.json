@@ -50,7 +50,6 @@
   "frameworks": {
     "dnx451": {
       "dependencies": {
-        "DAL": "1.0.0-*",
         "Owin.Security.Keycloak": "2.1.6"
       }
     }
