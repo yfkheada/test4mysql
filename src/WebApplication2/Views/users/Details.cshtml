@@ -1,0 +1,290 @@
+﻿@model WebAppMVC.Models.user
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>user</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Username)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Username)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApplicationName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApplicationName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Comment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Comment)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PasswordQuestion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PasswordQuestion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PasswordAnswer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PasswordAnswer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsApproved)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsApproved)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastActivityDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastActivityDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastLoginDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastLoginDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastPasswordChangedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastPasswordChangedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreationDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreationDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsOnLine)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsOnLine)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsLockedOut)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsLockedOut)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastLockedOutDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastLockedOutDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FailedPasswordAttemptCount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FailedPasswordAttemptCount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FailedPasswordAttemptWindowStart)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FailedPasswordAttemptWindowStart)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FailedPasswordAnswerAttemptCount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FailedPasswordAnswerAttemptCount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FailedPasswordAnswerAttemptWindowStart)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FailedPasswordAnswerAttemptWindowStart)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsAnonymous)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsAnonymous)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FacilityId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FacilityId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.userRole)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.userRole)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.validated)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.validated)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.groupId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.groupId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LoginKey)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoginKey)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.demo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.demo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Agree)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Agree)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AgreemantDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AgreemantDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.mobilePassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.mobilePassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ipwhitelist)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ipwhitelist)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
