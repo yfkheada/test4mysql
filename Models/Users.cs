@@ -6,7 +6,9 @@ namespace WebAppMVC.Models
     using System.Linq;
     using Microsoft.Extensions.Configuration;
     using WebApplication2.Controllers;
-    [DbConfigurationType(typeof(MyDbConfiguration))]
+    using MySql.Data.Entity;
+
+    [DbConfigurationType(typeof(MySqlEFConfiguration))]
     public partial class Users : DbContext
     {
         public Users(IConfiguration config)
