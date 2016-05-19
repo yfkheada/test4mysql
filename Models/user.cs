@@ -6,7 +6,7 @@ namespace WebAppMVC.Models
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    [Table("eclaimlinkportal.users")]
+    [Table("root.users")]
     public partial class user
     {
         public int ID { get; set; }
